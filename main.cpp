@@ -1,4 +1,5 @@
 #include "Date.h"
+#include "Timer.h"
 
 int main()
 {
@@ -11,6 +12,8 @@ int main()
 
     a.showTime();
 
+    Timer t;
+    t.Start();
 
     return 0;
 }
