@@ -1,10 +1,10 @@
-#include "Date.h"
-#include "Timer.h"
+#include "mainwindow.h"
+#include <QApplication>
 
-int main()
+int main(int argc, char *argv[])
 {
 
-
+    /*
     Date a;
     a.DateNumForm();
     a.DateCharForm();
@@ -14,6 +14,13 @@ int main()
 
     Timer t;
     t.Start();
+    */
 
-    return 0;
+
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
+
+
+    return a.exec();
 }
