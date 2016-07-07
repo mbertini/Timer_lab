@@ -42,7 +42,7 @@ void Timer::Running() {
         Sleep(100);
 
 
-        if ( GetAsyncKeyState(VK_SPACE) ) {
+        if ( GetAsyncKeyState(VK_F1) ) {
             Timer::Pause();
             if (paused)
                 esc = true;

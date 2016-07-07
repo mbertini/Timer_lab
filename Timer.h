@@ -9,11 +9,11 @@ public:
 
     void Start ();
 
-private:
-
     void Running ();
     void Pause ();
     void Stop ();
+
+private:
 
     bool started;
     bool paused;
